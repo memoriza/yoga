@@ -75,15 +75,15 @@
 
 		<div id="wrap" class="container">
 
-			<div id="welcomeTitle" class="center-align">
+			<div id="welcomeTitle" class="img-responsive center-align">
 
 				<h1> My Yoga Journey </h1>
 					
 			</div>
 
-			<div id="body">
+			<div id="body" class="img-responsive">
 
-				<img class="img-responsive center-align" src="/images/IMG_7737.jpg"></img>
+				<img class="center-align " src="/images/me.jpg"></img>
 
 				<p> Hello my name is Joshua Williams and I am a self-taught yogi pursuing the integration of Yoga into my life through the practice. It has healed me in many ways and also taught me alot about my inner Self in ways beyond words at the present moment. I hope that this website will illuminate more of who I am and my love of Yoga.</p> 
 
@@ -108,6 +108,17 @@
 			</div>
 
 		</div>
+
+		<script>
+
+			$(function() {
+				$('.pop').on('click', function() {
+					$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+					$('#imagemodal').modal('show');   
+				});		
+			});
+			
+		</script>
 
 		<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 	

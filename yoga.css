@@ -89,7 +89,7 @@ body {
 	
 }
 
-/*body content*/
+/*body welcome content*/
 
 #welcomeTitle {
 
@@ -97,12 +97,55 @@ body {
 
 }
 
-
-
 #body > img {
 	
-	object-fit: contain;
-	text-align:center;
+	width:100%;
+	object-fit: cover;
+	
+}
+
+/*images of image gallery */
+
+#imageGallery > div > img {
+
+	object-fit: cover;
+	padding-top: 15px;
+
+}
+
+#imageGallery > div:nth-child(2) > img {
+	
+	object-fit: cover;
+	padding-top: 15px;
+
+}
+
+#imageGallery > div:nth-child(3) > img {
+	
+
+	object-fit: cover;
+	padding-top: 15px;
+
+}
+
+#imageGallery > div:nth-child(4) > img {
+	
+	object-fit: cover;
+	padding-top: 15px;
+
+}
+
+#imageGallery > div:nth-child(5) > img {
+	
+	object-fit: cover;
+	padding-top: 15px;
+
+}
+
+#imageGallery > div:nth-child(6) > img {
+	
+	object-fit: cover;
+	padding-top: 15px;
 
 }
 
