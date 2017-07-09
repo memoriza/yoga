@@ -106,21 +106,21 @@ body {
 
 /*images of image gallery */
 
-#imageGallery > div > img {
+#imageGallery > div:nth-child(1) > a > img {
 
 	object-fit: cover;
 	padding-top: 15px;
 
 }
 
-#imageGallery > div:nth-child(2) > img {
+#imageGallery > div:nth-child(2) > a > img {
 	
 	object-fit: cover;
 	padding-top: 15px;
 
 }
 
-#imageGallery > div:nth-child(3) > img {
+#imageGallery > div:nth-child(3) > a > img {
 	
 
 	object-fit: cover;
@@ -128,26 +128,54 @@ body {
 
 }
 
-#imageGallery > div:nth-child(4) > img {
+#imageGallery > div:nth-child(4) > a > img {
 	
 	object-fit: cover;
 	padding-top: 15px;
 
 }
 
-#imageGallery > div:nth-child(5) > img {
+#imageGallery > div:nth-child(5) > a > img {
 	
 	object-fit: cover;
 	padding-top: 15px;
 
 }
 
-#imageGallery > div:nth-child(6) > img {
+#imageGallery > div:nth-child(6) > a > img {
 	
 	object-fit: cover;
 	padding-top: 15px;
 
 }
+
+/*image preview modal*/
+
+#imagemodal > div > div > div {
+	
+	background-color: #D8DAE6;
+
+}
+
+#imagemodal > div > div > div > button > span {
+	
+
+	color: #000000;
+
+}
+
+#imagemodal > div > div > div > button > span:active {
+
+	color: #3D3E41;
+	
+}
+
+#imagemodal > div > div > div > button > span:hover {
+
+	color: #1C1418;
+
+}
+
 
 
 
